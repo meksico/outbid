@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible"
+        content="IE=edge" />
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Outbid | Sign Up</title>
+  <link rel="stylesheet"
+        href="styles/shared/aos.css" />
+  <link rel="stylesheet"
+        href="styles/shared/jquery-ui.min.css" />
+  <link rel="stylesheet"
+        href="styles/sign-up/sign-up.css" />
+</head>
+
+<body class="sign-up-page">
+  <!-- Header -->
+  <header class="header header_dark header_white-mob-menu"
+          data-aos="fade"
+          data-aos-once="true"
+          data-aos-duration="400">
+    <div class="header__container container">
+      <a href="index.html"
+         class="header-logo">
+        <img class="header-logo__img"
+             src="./images/common/logo.svg"
+             alt="Outbid logo" />
+        <img class="header-logo__img header-logo__img_dark"
+             src="./images/common/logo_dark.svg"
+             alt="Outbid logo" />
+      </a>
+
+      <button class="header__mobile-btn"></button>
+
+      <div class="header-menu">
+        <div class="header-btn-wrap">
+          <a href=""
+             class="header__btn button">Log In</a>
+          <a href="contact.html"
+             class="header__btn button button_bordered">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Header END -->
+
+  <!-- Sign Up -->
+  <div class="sign-up"
+       data-aos="fade"
+       data-aos-once="true"
+       data-aos-duration="600">
+    <div class="sign-up__container container">
+      <h2 class="sign-up__title title">Sign Up</h2>
+
+      <div id="sign-up-wizard"
+           class="sign-up__wizard">
+        <ul class="sign-up-steps nav">
+          <li class="sign-up-steps__item nav-item">
+            <a class="sign-up-steps__link nav-link"
+               href="#step-1"
+               tabindex="-1"></a>
+          </li>
+          <li class="sign-up-steps__item nav-item">
+            <a class="sign-up-steps__link nav-link"
+               href="#step-2"
+               tabindex="-1"></a>
+          </li>
+          <li class="sign-up-steps__item nav-item">
+            <a class="sign-up-steps__link nav-link"
+               href="#step-3"
+               tabindex="-1"></a>
+          </li>
+        </ul>
+
+        <form class="sign-up__form"
+              name="signUpForm"
+              method="post"
+              action=""
+              novalidate>
+          <div class="sign-up__wrap tab-content">
+            <!-- Account details -->
+            <div id="step-1"
+                 class="sign-up__content tab-pane"
+                 role="tabpanel"
+                 aria-labelledby="step-1">
+              <h4 class="sign-up__item-title">Account details</h4>
+
+              <div class="contact-form">
+                <div class="contact-form__list">
+                  <label class="input contact-form__field contact-form__field_half">
+                    <input type="text"
+                           class="input__field text__field"
+                           name="firstName"
+                           required />
+                    <span class="input__placeholder">First Name</span>
+                    <span class="input__error">Please fill out this field</span>
+                  </label>
+
+                  <label class="input contact-form__field contact-form__field_half">
+                    <input type="text"
+                           class="input__field text__field"
+                           name="lastName"
+                           required />
+                    <span class="input__placeholder">Last Name</span>
+                    <span class="input__error">Please fill out this field</span>
+                  </label>
+
+                  <label class="input contact-form__field">
+                    <input type="email"
+                           class="input__field text__field"
+                           name="email"
+                           required />
+                    <span class="input__placeholder">Email</span>
+                    <span class="input__error">Please enter a valid email address</span>
+                  </label>
+
+                  <label class="input contact-form__field contact-form__field_half">
+                    <input type="text"
+                           class="input__field text__field"
+                           name="skype"
+                           required />
+                    <span class="input__placeholder">Skype</span>
+                    <span class="input__error">Please fill out this field</span>
+                  </label>
+
+                  <label class="input contact-form__field contact-form__field_half">
+                    <input type="text"
+                           class="input__field text__field"
+                           name="telegram"
+                           required />
+                    <span class="input__placeholder">Telegram</span>
+                    <span class="input__error">Please fill out this field</span>
+                  </label>
+
+                  <div class="suggestion-select contact-form__field contact-form__field_quarter-min">
+                    <select id="comboboxPhoneCode"
+                            class="suggestion-select__field"
+                            name="phoneCode"
+                            required>
+                      <option></option>
+                      <option data-countryCode="DZ"
+                              value="213">Algeria</option>
+                      <option data-countryCode="AD"
+                              value="376">Andorra</option>
+                      <option data-countryCode="AO"
+                              value="244">Angola</option>
+                      <option data-countryCode="AI"
+                              value="1264">Anguilla</option>
+                      <option data-countryCode="AG"
+                              value="1268">Antigua & Barbuda</option>
+                      <option data-countryCode="AR"
+                              value="54">Argentina</option>
+                      <option data-countryCode="AM"
+                              value="374">Armenia</option>
+                      <option data-countryCode="AW"
+                              value="297">Aruba</option>
+                      <option data-countryCode="AU"
+                              value="61">Australia</option>
+                      <option data-countryCode="AT"
+                              value="43">Austria</option>
+                      <option data-countryCode="AZ"
+                              value="994">Azerbaijan</option>
+                      <option data-countryCode="BS"
+                              value="1242">Bahamas</option>
+                      <option data-countryCode="BH"
+                              value="973">Bahrain</option>
+                      <option data-countryCode="BD"
+                              value="880">Bangladesh</option>
+                      <option data-countryCode="BB"
+                              value="1246">Barbados</option>
+                      <option data-countryCode="BY"
+                              value="375">Belarus</option>
+                      <option data-countryCode="BE"
+                              value="32">Belgium</option>
+                      <option data-countryCode="BZ"
+                              value="501">Belize</option>
+                      <option data-countryCode="BJ"
+                              value="229">Benin</option>
+                      <option data-countryCode="BM"
+                              value="1441">Bermuda</option>
+                      <option data-countryCode="BT"
+                              value="975">Bhutan</option>
+                      <option data-countryCode="BO"
+                              value="591">Bolivia</option>
+                      <option data-countryCode="BA"
+                              value="387">Bosnia Herzegovina</option>
+                      <option data-countryCode="BW"
+                              value="267">Botswana</option>
+                      <option data-countryCode="BR"
+                              value="55">Brazil</option>
+                      <option data-countryCode="BN"
+                              value="673">Brunei</option>
+                      <option data-countryCode="BG"
+                              value="359">Bulgaria</option>
+                      <option data-countryCode="BF"
+                              value="226">Burkina Faso</option>
+                      <option data-countryCode="BI"
+                              value="257">Burundi</option>
+                      <option data-countryCode="KH"
+                              value="855">Cambodia</option>
+                      <option data-countryCode="CM"
+                              value="237">Cameroon</option>
+                      <option data-countryCode="CA"
+                              value="1">Canada</option>
+                      <option data-countryCode="CV"
+                              value="238">Cape Verde Islands</option>
+                      <option data-countryCode="KY"
+                              value="1345">Cayman Islands</option>
+                      <option data-countryCode="CF"
+                              value="236">Central African Republic</option>
+                      <option data-countryCode="CL"
+                              value="56">Chile</option>
+                      <option data-countryCode="CN"
+                              value="86">China</option>
+                      <option data-countryCode="CO"
+                              value="57">Colombia</option>
+                      <option data-countryCode="KM"
+                              value="269">Comoros</option>
+                      <option data-countryCode="CG"
+                              value="242">Congo</option>
+                      <option data-countryCode="CK"
+                              value="682">Cook Islands</option>
+                      <option data-countryCode="CR"
+                              value="506">Costa Rica</option>
+                      <option data-countryCode="HR"
+                              value="385">Croatia</option>
+                      <option data-countryCode="CU"
+                              value="53">Cuba</option>
+                      <option data-countryCode="CY"
+                              value="90392">Cyprus North</option>
+                      <option data-countryCode="CY"
+                              value="357">Cyprus South</option>
+                      <option data-countryCode="CZ"
+                              value="42">Czech Republic</option>
+                      <option data-countryCode="DK"
+                              value="45">Denmark</option>
+                      <option data-countryCode="DJ"
+                              value="253">Djibouti</option>
+                      <option data-countryCode="DM"
+                              value="1809">Dominica</option>
+                      <option data-countryCode="DO"
+                              value="1809">Dominican Republic</option>
+                      <option data-countryCode="EC"
+                              value="593">Ecuador</option>
+                      <option data-countryCode="EG"
+                              value="20">Egypt</option>
+                      <option data-countryCode="SV"
+                              value="503">El Salvador</option>
+                      <option data-countryCode="GQ"
+                              value="240">Equatorial Guinea</option>
+                      <option data-countryCode="ER"
+                              value="291">Eritrea</option>
+                      <option data-countryCode="EE"
+                              value="372">Estonia</option>
+                      <option data-countryCode="ET"
+                              value="251">Ethiopia</option>
+                      <option data-countryCode="FK"
+                              value="500">Falkland Islands</option>
+                      <option data-countryCode="FO"
+                              value="298">Faroe Islands</option>
+                      <option data-countryCode="FJ"
+                              value="679">Fiji</option>
+                      <option data-countryCode="FI"
+                              value="358">Finland</option>
+                      <option data-countryCode="FR"
+                              value="33">France</option>
+                      <option data-countryCode="GF"
+                              value="594">French Guiana</option>
+                      <option data-countryCode="PF"
+                              value="689">French Polynesia</option>
+                      <option data-countryCode="GA"
+                              value="241">Gabon</option>
+                      <option data-countryCode="GM"
+                              value="220">Gambia</option>
+                      <option data-countryCode="GE"
+                              value="7880">Georgia</option>
+                      <option data-countryCode="DE"
+                              value="49">Germany</option>
+                      <option data-countryCode="GH"
+                              value="233">Ghana</option>
+                      <option data-countryCode="GI"
+                              value="350">Gibraltar</option>
+                      <option data-countryCode="GR"
+                              value="30">Greece</option>
+                      <option data-countryCode="GL"
+                              value="299">Greenland</option>
+                      <option data-countryCode="GD"
+                              value="1473">Grenada</option>
+                      <option data-countryCode="GP"
+                              value="590">Guadeloupe</option>
+                      <option data-countryCode="GU"
+                              value="671">Guam</option>
+                      <option data-countryCode="GT"
+                              value="502">Guatemala</option>
+                      <option data-countryCode="GN"
+                              value="224">Guinea</option>
+                      <option data-countryCode="GW"
+                              value="245">Guinea - Bissau</option>
+                      <option data-countryCode="GY"
+                              value="592">Guyana</option>
+                      <option data-countryCode="HT"
+                              value="509">Haiti</option>
+                      <option data-countryCode="HN"
+                              value="504">Honduras</option>
+                      <option data-countryCode="HK"
+                              value="852">Hong Kong</option>
+                      <option data-countryCode="HU"
+                              value="36">Hungary</option>
+                      <option data-countryCode="IS"
+                              value="354">Iceland</option>
+                      <option data-countryCode="IN"
+                              value="91">India</option>
+                      <option data-countryCode="ID"
+                              value="62">Indonesia</option>
+                      <option data-countryCode="IR"
+                              value="98">Iran</option>
+                      <option data-countryCode="IQ"
+                              value="964">Iraq</option>
+                      <option data-countryCode="IE"
+                              value="353">Ireland</option>
+                      <option data-countryCode="IL"
+                              value="972">Israel</option>
+                      <option data-countryCode="IT"
+                              value="39">Italy</option>
+                      <option data-countryCode="JM"
+                              value="1876">Jamaica</option>
+                      <option data-countryCode="JP"
+                              value="81">Japan</option>
+                      <option data-countryCode="JO"
+                              value="962">Jordan</option>
+                      <option data-countryCode="KZ"
+                              value="7">Kazakhstan</option>
+                      <option data-countryCode="KE"
+                              value="254">Kenya</option>
+                      <option data-countryCode="KI"
+                              value="686">Kiribati</option>
+                      <option data-countryCode="KP"
+                              value="850">Korea North</option>
+                      <option data-countryCode="KR"
+                              value="82">Korea South</option>
+                      <option data-countryCode="KW"
+                              value="965">Kuwait</option>
+                      <option data-countryCode="KG"
+                              value="996">Kyrgyzstan</option>
+                      <option data-countryCode="LA"
+                              value="856">Laos</option>
+                      <option data-countryCode="LV"
+                              value="371">Latvia</option>
+                      <option data-countryCode="LB"
+                              value="961">Lebanon</option>
+                      <option data-countryCode="LS"
+                              value="266">Lesotho</option>
+                      <option data-countryCode="LR"
+                              value="231">Liberia</option>
+                      <option data-countryCode="LY"
+                              value="218">Libya</option>
+                      <option data-countryCode="LI"
+                              value="417">Liechtenstein</option>
+                      <option data-countryCode="LT"
+                              value="370">Lithuania</option>
+                      <option data-countryCode="LU"
+                              value="352">Luxembourg</option>
+                      <option data-countryCode="MO"
+                              value="853">Macao</option>
+                      <option data-countryCode="MK"
+                              value="389">Macedonia</option>
+                      <option data-countryCode="MG"
+                              value="261">Madagascar</option>
+                      <option data-countryCode="MW"
+                              value="265">Malawi</option>
+                      <option data-countryCode="MY"
+                              value="60">Malaysia</option>
+                      <option data-countryCode="MV"
+                              value="960">Maldives</option>
+                      <option data-countryCode="ML"
+                              value="223">Mali</option>
+                      <option data-countryCode="MT"
+                              value="356">Malta</option>
+                      <option data-countryCode="MH"
+                              value="692">Marshall Islands</option>
+                      <option data-countryCode="MQ"
+                              value="596">Martinique</option>
+                      <option data-countryCode="MR"
+                              value="222">Mauritania</option>
+                      <option data-countryCode="YT"
+                              value="269">Mayotte</option>
+                      <option data-countryCode="MX"
+                              value="52">Mexico</option>
+                      <option data-countryCode="FM"
+                              value="691">Micronesia</option>
+                      <option data-countryCode="MD"
+                              value="373">Moldova</option>
+                      <option data-countryCode="MC"
+                              value="377">Monaco</option>
+                      <option data-countryCode="MN"
+                              value="976">Mongolia</option>
+                      <option data-countryCode="MS"
+                              value="1664">Montserrat</option>
+                      <option data-countryCode="MA"
+                              value="212">Morocco</option>
+                      <option data-countryCode="MZ"
+                              value="258">Mozambique</option>
+                      <option data-countryCode="MN"
+                              value="95">Myanmar</option>
+                      <option data-countryCode="NA"
+                              value="264">Namibia</option>
+                      <option data-countryCode="NR"
+                              value="674">Nauru</option>
+                      <option data-countryCode="NP"
+                              value="977">Nepal</option>
+                      <option data-countryCode="NL"
+                              value="31">Netherlands</option>
+                      <option data-countryCode="NC"
+                              value="687">New Caledonia</option>
+                      <option data-countryCode="NZ"
+                              value="64">New Zealand</option>
+                      <option data-countryCode="NI"
+                              value="505">Nicaragua</option>
+                      <option data-countryCode="NE"
+                              value="227">Niger</option>
+                      <option data-countryCode="NG"
+                              value="234">Nigeria</option>
+                      <option data-countryCode="NU"
+                              value="683">Niue</option>
+                      <option data-countryCode="NF"
+                              value="672">Norfolk Islands</option>
+                      <option data-countryCode="NP"
+                              value="670">Northern Marianas</option>
+                      <option data-countryCode="NO"
+                              value="47">Norway</option>
+                      <option data-countryCode="OM"
+                              value="968">Oman</option>
+                      <option data-countryCode="PW"
+                              value="680">Palau</option>
+                      <option data-countryCode="PA"
+                              value="507">Panama</option>
+                      <option data-countryCode="PG"
+                              value="675">Papua New Guinea</option>
+                      <option data-countryCode="PY"
+                              value="595">Paraguay</option>
+                      <option data-countryCode="PE"
+                              value="51">Peru</option>
+                      <option data-countryCode="PH"
+                              value="63">Philippines</option>
+                      <option data-countryCode="PL"
+                              value="48">Poland</option>
+                      <option data-countryCode="PT"
+                              value="351">Portugal</option>
+                      <option data-countryCode="PR"
+                              value="1787">Puerto Rico</option>
+                      <option data-countryCode="QA"
+                              value="974">Qatar</option>
+                      <option data-countryCode="RE"
+                              value="262">Reunion</option>
+                      <option data-countryCode="RO"
+                              value="40">Romania</option>
+                      <option data-countryCode="RU"
+                              value="7">Russia</option>
+                      <option data-countryCode="RW"
+                              value="250">Rwanda</option>
+                      <option data-countryCode="SM"
+                              value="378">San Marino</option>
+                      <option data-countryCode="ST"
+                              value="239">Sao Tome & Principe</option>
+                      <option data-countryCode="SA"
+                              value="966">Saudi Arabia</option>
+                      <option data-countryCode="SN"
+                              value="221">Senegal</option>
+                      <option data-countryCode="CS"
+                              value="381">Serbia</option>
+                      <option data-countryCode="SC"
+                              value="248">Seychelles</option>
+                      <option data-countryCode="SL"
+                              value="232">Sierra Leone</option>
+                      <option data-countryCode="SG"
+                              value="65">Singapore</option>
+                      <option data-countryCode="SK"
+                              value="421">Slovak Republic</option>
+                      <option data-countryCode="SI"
+                              value="386">Slovenia</option>
+                      <option data-countryCode="SB"
+                              value="677">Solomon Islands</option>
+                      <option data-countryCode="SO"
+                              value="252">Somalia</option>
+                      <option data-countryCode="ZA"
+                              value="27">South Africa</option>
+                      <option data-countryCode="ES"
+                              value="34">Spain</option>
+                      <option data-countryCode="LK"
+                              value="94">Sri Lanka</option>
+                      <option data-countryCode="SH"
+                              value="290">St. Helena</option>
+                      <option data-countryCode="KN"
+                              value="1869">St. Kitts</option>
+                      <option data-countryCode="SC"
+                              value="1758">St. Lucia</option>
+                      <option data-countryCode="SD"
+                              value="249">Sudan</option>
+                      <option data-countryCode="SR"
+                              value="597">Suriname</option>
+                      <option data-countryCode="SZ"
+                              value="268">Swaziland</option>
+                      <option data-countryCode="SE"
+                              value="46">Sweden</option>
+                      <option data-countryCode="CH"
+                              value="41">Switzerland</option>
+                      <option data-countryCode="SI"
+                              value="963">Syria</option>
+                      <option data-countryCode="TW"
+                              value="886">Taiwan</option>
+                      <option data-countryCode="TJ"
+                              value="7">Tajikstan</option>
+                      <option data-countryCode="TH"
+                              value="66">Thailand</option>
+                      <option data-countryCode="TG"
+                              value="228">Togo</option>
+                      <option data-countryCode="TO"
+                              value="676">Tonga</option>
+                      <option data-countryCode="TT"
+                              value="1868">Trinidad & Tobago</option>
+                      <option data-countryCode="TN"
+                              value="216">Tunisia</option>
+                      <option data-countryCode="TR"
+                              value="90">Turkey</option>
+                      <option data-countryCode="TM"
+                              value="7">Turkmenistan</option>
+                      <option data-countryCode="TM"
+                              value="993">Turkmenistan</option>
+                      <option data-countryCode="TC"
+                              value="1649">Turks & Caicos Islands</option>
+                      <option data-countryCode="TV"
+                              value="688">Tuvalu</option>
+                      <option data-countryCode="UG"
+                              value="256">Uganda</option>
+                      <option data-countryCode="GB"
+                              value="44">UK</option>
+                      <option data-countryCode="UA"
+                              value="380">Ukraine</option>
+                      <option data-countryCode="AE"
+                              value="971">United Arab Emirates</option>
+                      <option data-countryCode="UY"
+                              value="598">Uruguay</option>
+                      <option data-countryCode="US"
+                              value="1">USA</option>
+                      <option data-countryCode="UZ"
+                              value="7">Uzbekistan</option>
+                      <option data-countryCode="VU"
+                              value="678">Vanuatu</option>
+                      <option data-countryCode="VA"
+                              value="379">Vatican City</option>
+                      <option data-countryCode="VE"
+                              value="58">Venezuela</option>
+                      <option data-countryCode="VN"
+                              value="84">Vietnam</option>
+                      <option data-countryCode="VG"
+                              value="84">Virgin Islands - British</option>
+                      <option data-countryCode="VI"
+                              value="84">Virgin Islands - US</option>
+                      <option data-countryCode="WF"
+                              value="681">Wallis & Futuna</option>
+                      <option data-countryCode="YE"
+                              value="969">Yemen (Nort</option>
+                      <option data-countryCode="YE"
+                              value="967">Yemen (Sout</option>
+                      <option data-countryCode="ZM"
+                              value="260">Zambia</option>
+                      <option data-countryCode="ZW"
+                              value="263">Zimbabwe</option>
+                    </select>
+                    <span class="suggestion-select__placeholder">Phone Number</span>
+                    <span class="suggestion-select__error">Please select an item in the list</span>
+                  </div>
+
+                  <label class="input contact-form__field contact-form__field_quarter-max">
+                    <input id="phone"
+                           type="tel"
+                           class="input__field text__field"
+                           name="phone"
+                           required />
+                    <span class="input__error">Please fill out this field</span>
+                  </label>
+
+                  <label class="input contact-form__field">
+                    <input type="text"
+                           class="input__field text__field"
+                           name="hearAboutLetsCPA"
+                           required />
+                    <span class="input__placeholder">How did you hear about LetsCPA?</span>
+                    <span class="input__error">Please fill out this field</span>
+                  </label>
+                </div>
+
+                <div class="contact-form__footer">
+                  <div class="contact-form__btns">
+                    <button class="button sign-up__btn-next"
+                            type="button"
+                            onclick="validateStep('#step-1')">Next Step</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Account details END -->
+            <!-- Financial details -->
+            <div id="step-2"
+                 class="sign-up__content tab-pane"
+                 role="tabpanel"
+                 aria-labelledby="step-2">
+              <h4 class="sign-up__item-title">Financial details</h4>
+
+              <div class="contact-form">
+                <div class="contact-form__list">
+                  <div class="contact-form__toggle-field">
+                    <span class="field-label">Company name</span>
+                    <label class="checkbox">
+                      <div class="checkbox__field">
+                        <input id="noCompany"
+                               type="checkbox"
+                               name="noCompany">
+                        <span class="checkbox__status"></span>
+                      </div>
+                      <span class="checkbox__label">No company</span>
+                    </label>
+                    <label id="companyName"
+                           class="input input_without-placeholder contact-form__field">
+                      <input type="text"
+                             name="companyName"
+                             class="input__field text__field"
+                             required />
+                      <span class="input__error">Please fill out this field</span>
+                    </label>
+                  </div>
+
+                  <div class="contact-form__toggle-field">
+                    <span class="field-label">Website</span>
+                    <label class="checkbox">
+                      <div class="checkbox__field">
+                        <input id="noWebsite"
+                               type="checkbox"
+                               name="noWebsite">
+                        <span class="checkbox__status"></span>
+                      </div>
+                      <span class="checkbox__label">No website</span>
+                    </label>
+                    <label id="website"
+                           class="input input_without-placeholder contact-form__field">
+                      <input type="text"
+                             name="website"
+                             class="input__field text__field"
+                             required />
+                      <span class="input__error">Please fill out this field</span>
+                    </label>
+                  </div>
+
+                  <label class="input contact-form__field">
+                    <input type="text"
+                           class="input__field text__field"
+                           name="streetAddress"
+                           required />
+                    <span class="input__placeholder">Street Address</span>
+                    <span class="input__error">Please fill out this field</span>
+                  </label>
+
+                  <label class="input contact-form__field contact-form__field_half">
+                    <input type="text"
+                           class="input__field text__field"
+                           name="city"
+                           required />
+                    <span class="input__placeholder">City</span>
+                    <span class="input__error">Please fill out this field</span>
+                  </label>
+
+                  <label class="input contact-form__field contact-form__field_half">
+                    <input type="text"
+                           class="input__field text__field"
+                           name="postalCode"
+                           required />
+                    <span class="input__placeholder">Postal Code</span>
+                    <span class="input__error">Please fill out this field</span>
+                  </label>
+
+                  <label class="input contact-form__field contact-form__field_half">
+                    <input type="text"
+                           class="input__field text__field"
+                           name="stateRegion"
+                           required />
+                    <span class="input__placeholder">State/Region</span>
+                    <span class="input__error">Please fill out this field</span>
+                  </label>
+
+                  <div class="suggestion-select contact-form__field contact-form__field_half">
+                    <select id="comboboxCountry"
+                            class="suggestion-select__field"
+                            name="country"
+                            required>
+                      <option></option>
+                      <option value="Algeria">Algeria</option>
+                      <option value="Andorra">Andorra</option>
+                      <option value="Angola">Angola</option>
+                      <option value="Anguilla">Anguilla</option>
+                      <option value="Antigua & Barbuda">Antigua & Barbuda</option>
+                      <option value="Argentina">Argentina</option>
+                      <option value="Armenia">Armenia</option>
+                      <option value="Aruba">Aruba</option>
+                      <option value="Australia">Australia</option>
+                      <option value="Austria">Austria</option>
+                      <option value="Azerbaijan">Azerbaijan</option>
+                      <option value="Bahamas">Bahamas</option>
+                      <option value="Bahrain">Bahrain</option>
+                      <option value="Bangladesh">Bangladesh</option>
+                      <option value="Barbados">Barbados</option>
+                      <option value="Belarus">Belarus</option>
+                      <option value="Belgium">Belgium</option>
+                      <option value="Belize">Belize</option>
+                      <option value="Benin">Benin</option>
+                      <option value="Bermuda">Bermuda</option>
+                      <option value="Bhutan">Bhutan</option>
+                      <option value="Bolivia">Bolivia</option>
+                      <option value="Bosnia Herzegovina">Bosnia Herzegovina</option>
+                      <option value="Botswana">Botswana</option>
+                      <option value="Brazil">Brazil</option>
+                      <option value="Brunei">Brunei</option>
+                      <option value="Bulgaria">Bulgaria</option>
+                      <option value="Burkina Faso">Burkina Faso</option>
+                      <option value="Burundi">Burundi</option>
+                      <option value="Cambodia">Cambodia</option>
+                      <option value="Cameroon">Cameroon</option>
+                      <option value="Canada">Canada</option>
+                      <option value="Cape Verde Islands">Cape Verde Islands</option>
+                      <option value="Cayman Islands">Cayman Islands</option>
+                      <option value="Central African Republic">Central African Republic</option>
+                      <option value="Chile">Chile</option>
+                      <option value="China">China</option>
+                      <option value="Colombia">Colombia</option>
+                      <option value="Comoros">Comoros</option>
+                      <option value="Congo">Congo</option>
+                      <option value="Cook Islands">Cook Islands</option>
+                      <option value="Costa Rica">Costa Rica</option>
+                      <option value="Croatia">Croatia</option>
+                      <option value="Cuba">Cuba</option>
+                      <option value="Cyprus North">Cyprus North</option>
+                      <option value="Cyprus South">Cyprus South</option>
+                      <option value="Czech Republic">Czech Republic</option>
+                      <option value="Denmark">Denmark</option>
+                      <option value="Djibouti">Djibouti</option>
+                      <option value="Dominica">Dominica</option>
+                      <option value="Dominican Republic">Dominican Republic</option>
+                      <option value="Ecuador">Ecuador</option>
+                      <option value="Egypt">Egypt</option>
+                      <option value="El Salvador">El Salvador</option>
+                      <option value="Equatorial Guinea">Equatorial Guinea</option>
+                      <option value="Eritrea">Eritrea</option>
+                      <option value="Estonia">Estonia</option>
+                      <option value="Ethiopia">Ethiopia</option>
+                      <option value="Falkland Islands">Falkland Islands</option>
+                      <option value="Faroe Islands">Faroe Islands</option>
+                      <option value="Fiji">Fiji</option>
+                      <option value="Finland">Finland</option>
+                      <option value="France">France</option>
+                      <option value="French Guiana">French Guiana</option>
+                      <option value="French Polynesia">French Polynesia</option>
+                      <option value="Gabon">Gabon</option>
+                      <option value="Gambia">Gambia</option>
+                      <option value="Georgia">Georgia</option>
+                      <option value="Germany">Germany</option>
+                      <option value="Ghana">Ghana</option>
+                      <option value="Gibraltar">Gibraltar</option>
+                      <option value="Greece">Greece</option>
+                      <option value="Greenland">Greenland</option>
+                      <option value="Grenada">Grenada</option>
+                      <option value="Guadeloupe">Guadeloupe</option>
+                      <option value="Guam">Guam</option>
+                      <option value="Guatemala">Guatemala</option>
+                      <option value="Guinea">Guinea</option>
+                      <option value="Guinea - Bissau">Guinea - Bissau</option>
+                      <option value="Guyana">Guyana</option>
+                      <option value="Haiti">Haiti</option>
+                      <option value="Honduras">Honduras</option>
+                      <option value="Hong Kong">Hong Kong</option>
+                      <option value="Hungary">Hungary</option>
+                      <option value="Iceland">Iceland</option>
+                      <option value="India">India</option>
+                      <option value="Indonesia">Indonesia</option>
+                      <option value="Iran">Iran</option>
+                      <option value="Iraq">Iraq</option>
+                      <option value="Ireland">Ireland</option>
+                      <option value="Israel">Israel</option>
+                      <option value="Italy">Italy</option>
+                      <option value="Jamaica">Jamaica</option>
+                      <option value="Japan">Japan</option>
+                      <option value="Jordan">Jordan</option>
+                      <option value="Kazakhstan">Kazakhstan</option>
+                      <option value="Kenya">Kenya</option>
+                      <option value="Kiribati">Kiribati</option>
+                      <option value="Korea North">Korea North</option>
+                      <option value="Korea South">Korea South</option>
+                      <option value="Kuwait">Kuwait</option>
+                      <option value="Kyrgyzstan">Kyrgyzstan</option>
+                      <option value="Laos">Laos</option>
+                      <option value="Latvia">Latvia</option>
+                      <option value="Lebanon">Lebanon</option>
+                      <option value="Lesotho">Lesotho</option>
+                      <option value="Liberia">Liberia</option>
+                      <option value="Libya">Libya</option>
+                      <option value="Liechtenstein">Liechtenstein</option>
+                      <option value="Lithuania">Lithuania</option>
+                      <option value="Luxembourg">Luxembourg</option>
+                      <option value="Macao">Macao</option>
+                      <option value="Macedonia">Macedonia</option>
+                      <option value="Madagascar">Madagascar</option>
+                      <option value="Malawi">Malawi</option>
+                      <option value="Malaysia">Malaysia</option>
+                      <option value="Maldives">Maldives</option>
+                      <option value="Mali">Mali</option>
+                      <option value="Malta">Malta</option>
+                      <option value="Marshall Islands">Marshall Islands</option>
+                      <option value="Martinique">Martinique</option>
+                      <option value="Mauritania">Mauritania</option>
+                      <option value="Mayotte">Mayotte</option>
+                      <option value="Mexico">Mexico</option>
+                      <option value="Micronesia">Micronesia</option>
+                      <option value="Moldova">Moldova</option>
+                      <option value="Monaco">Monaco</option>
+                      <option value="Mongolia">Mongolia</option>
+                      <option value="Montserrat">Montserrat</option>
+                      <option value="Morocco">Morocco</option>
+                      <option value="Mozambique">Mozambique</option>
+                      <option value="Myanmar">Myanmar</option>
+                      <option value="Namibia">Namibia</option>
+                      <option value="Nauru">Nauru</option>
+                      <option value="Nepal">Nepal</option>
+                      <option value="Netherlands">Netherlands</option>
+                      <option value="New Caledonia">New Caledonia</option>
+                      <option value="New Zealand">New Zealand</option>
+                      <option value="Nicaragua">Nicaragua</option>
+                      <option value="Niger">Niger</option>
+                      <option value="Nigeria">Nigeria</option>
+                      <option value="Niue">Niue</option>
+                      <option value="Norfolk Islands">Norfolk Islands</option>
+                      <option value="Northern Marianas">Northern Marianas</option>
+                      <option value="Norway">Norway</option>
+                      <option value="Oman">Oman</option>
+                      <option value="Palau">Palau</option>
+                      <option value="Panama">Panama</option>
+                      <option value="Papua New Guinea">Papua New Guinea</option>
+                      <option value="Paraguay">Paraguay</option>
+                      <option value="Peru">Peru</option>
+                      <option value="Philippines">Philippines</option>
+                      <option value="Poland">Poland</option>
+                      <option value="Portugal">Portugal</option>
+                      <option value="Puerto Rico">Puerto Rico</option>
+                      <option value="Qatar">Qatar</option>
+                      <option value="Reunion">Reunion</option>
+                      <option value="Romania">Romania</option>
+                      <option value="Russia">Russia</option>
+                      <option value="Rwanda">Rwanda</option>
+                      <option value="San Marino">San Marino</option>
+                      <option value="Sao Tome & Principe">Sao Tome & Principe</option>
+                      <option value="Saudi Arabia">Saudi Arabia</option>
+                      <option value="Senegal">Senegal</option>
+                      <option value="Serbia">Serbia</option>
+                      <option value="Seychelles">Seychelles</option>
+                      <option value="Sierra Leone">Sierra Leone</option>
+                      <option value="Singapore">Singapore</option>
+                      <option value="Slovak Republic">Slovak Republic</option>
+                      <option value="Slovenia">Slovenia</option>
+                      <option value="Solomon Islands">Solomon Islands</option>
+                      <option value="Somalia">Somalia</option>
+                      <option value="South Africa">South Africa</option>
+                      <option value="Spain">Spain</option>
+                      <option value="Sri Lanka">Sri Lanka</option>
+                      <option value="St. Helena">St. Helena</option>
+                      <option value="St. Kitts">St. Kitts</option>
+                      <option value="St. Lucia">St. Lucia</option>
+                      <option value="Sudan">Sudan</option>
+                      <option value="Suriname">Suriname</option>
+                      <option value="Swaziland">Swaziland</option>
+                      <option value="Sweden">Sweden</option>
+                      <option value="Switzerland">Switzerland</option>
+                      <option value="Syria">Syria</option>
+                      <option value="Taiwan">Taiwan</option>
+                      <option value="Tajikstan">Tajikstan</option>
+                      <option value="Thailand">Thailand</option>
+                      <option value="Togo">Togo</option>
+                      <option value="Tonga">Tonga</option>
+                      <option value="Trinidad & Tobago">Trinidad & Tobago</option>
+                      <option value="Tunisia">Tunisia</option>
+                      <option value="Turkey">Turkey</option>
+                      <option value="Turkmenistan">Turkmenistan</option>
+                      <option value="Turkmenistan">Turkmenistan</option>
+                      <option value="Turks & Caicos Islands">Turks & Caicos Islands</option>
+                      <option value="Tuvalu">Tuvalu</option>
+                      <option value="Uganda">Uganda</option>
+                      <option value="UK">UK</option>
+                      <option value="Ukraine">Ukraine</option>
+                      <option value="United Arab Emirates">United Arab Emirates</option>
+                      <option value="Uruguay">Uruguay</option>
+                      <option value="USA">USA</option>
+                      <option value="Uzbekistan">Uzbekistan</option>
+                      <option value="Vanuatu">Vanuatu</option>
+                      <option value="Vatican City">Vatican City</option>
+                      <option value="Venezuela">Venezuela</option>
+                      <option value="Vietnam">Vietnam</option>
+                      <option value="Virgin Islands - British">Virgin Islands - British</option>
+                      <option value="Virgin Islands - US">Virgin Islands - US</option>
+                      <option value="Wallis & Futuna">Wallis & Futuna</option>
+                      <option value="Yemen (Nort">Yemen (Nort</option>
+                      <option value="Yemen (Sout">Yemen (Sout</option>
+                      <option value="Zambia">Zambia</option>
+                      <option value="Zimbabwe">Zimbabwe</option>
+                    </select>
+                    <span class="suggestion-select__placeholder">Country</span>
+                    <span class="suggestion-select__error">Please select an item in the list</span>
+                  </div>
+
+                  <div class="select contact-form__field">
+                    <select id="paymentMethod"
+                            name="paymentMethod"
+                            required>
+                      <option></option>
+                      <option value="wire"
+                              data-form="form-1">Wire Transfer</option>
+                      <option value="paypal"
+                              data-form="form-2">PayPal</option>
+                      <option value="paxum"
+                              data-form="form-2">Paxum</option>
+                      <option value="payoneer"
+                              data-form="form-2">Payoneer</option>
+                      <option value="webmoney"
+                              data-form="form-3">WebMoney</option>
+                      <option value="capitalist"
+                              data-form="form-4">Capitalist</option>
+                    </select>
+                    <span class="select__placeholder">Payment Method</span>
+                  </div>
+
+                  <!-- Payment Method - Wire Transfer -->
+                  <div id="form-1"
+                       class="payment-method-fields payment-method-fields_wire">
+                    <label class="input contact-form__field">
+                      <input type="text"
+                             class="input__field text__field"
+                             name="beneficiaryName" />
+                      <span class="input__placeholder">Beneficiary Name</span>
+                      <span class="input__error">Please fill out this field</span>
+                    </label>
+
+                    <label class="input contact-form__field">
+                      <input type="text"
+                             class="input__field text__field"
+                             name="SWIFT" />
+                      <span class="input__placeholder">SWIFT</span>
+                      <span class="input__error">Please fill out this field</span>
+                    </label>
+
+                    <label class="input contact-form__field">
+                      <input type="text"
+                             class="input__field text__field"
+                             name="iban" />
+                      <span class="input__placeholder">IBAN/ACCOUNT</span>
+                      <span class="input__error">Please fill out this field</span>
+                    </label>
+
+                    <label class="input contact-form__field">
+                      <input type="text"
+                             class="input__field text__field"
+                             name="bankName" />
+                      <span class="input__placeholder">Bank Name</span>
+                      <span class="input__error">Please fill out this field</span>
+                    </label>
+
+                    <label class="input contact-form__field">
+                      <input type="text"
+                             class="input__field text__field"
+                             name="bankAddress" />
+                      <span class="input__placeholder">Bank Address</span>
+                      <span class="input__error">Please fill out this field</span>
+                    </label>
+
+                    <label class="input contact-form__field">
+                      <input type="text"
+                             class="input__field text__field"
+                             name="VATidentificationNumber" />
+                      <span class="input__placeholder">VAT identification number</span>
+                      <span class="input__error">Please fill out this field</span>
+                    </label>
+                  </div>
+                  <!-- Payment Method - Wire Transfer END -->
+
+                  <!-- Payment Method - PayPal/Paxum/Payoneer -->
+                  <div id="form-2"
+                       class="payment-method-fields payment-method-fields_paypal">
+                    <label class="input contact-form__field">
+                      <input type="text"
+                             class="input__field text__field"
+                             name="beneficiaryName" />
+                      <span class="input__placeholder">Beneficiary Name</span>
+                      <span class="input__error">Please fill out this field</span>
+                    </label>
+
+                    <label class="input contact-form__field">
+                      <input type="text"
+                             class="input__field text__field"
+                             name="paymentEmail" />
+                      <span class="input__placeholder">Payment Email</span>
+                      <span class="input__error">Please fill out this field</span>
+                    </label>
+                  </div>
+                  <!-- Payment Method - PayPal/Paxum/Payoneer END -->
+
+                  <!-- Payment Method - WebMoney -->
+                  <div id="form-3"
+                       class="payment-method-fields payment-method-fields_webMoney ">
+                    <label class="input contact-form__field">
+                      <input type="text"
+                             class="input__field text__field"
+                             name="beneficiaryName" />
+                      <span class="input__placeholder">Beneficiary Name</span>
+                      <span class="input__error">Please fill out this field</span>
+                    </label>
+
+                    <label class="input contact-form__field">
+                      <input id="WMZ"
+                             type="text"
+                             class="input__field text__field"
+                             name="WMZ"
+                             minlength="2" />
+                      <span class="input__placeholder">WMZ</span>
+                      <span class="input__error">Please fill out this field</span>
+                    </label>
+                  </div>
+                  <!-- Payment Method - WebMoney END -->
+
+                  <!-- Payment Method - Capitalist -->
+                  <div id="form-4"
+                       class="payment-method-fields payment-method-fields_capitalist ">
+                    <label class="input contact-form__field">
+                      <input type="text"
+                             class="input__field text__field"
+                             name="beneficiaryName" />
+                      <span class="input__placeholder">Beneficiary Name</span>
+                      <span class="input__error">Please fill out this field</span>
+                    </label>
+
+                    <label class="input contact-form__field">
+                      <input id="accountNumber"
+                             type="text"
+                             class="input__field text__field"
+                             name="accountNumber"
+                             minlength="2" />
+                      <span class="input__placeholder">Account Number</span>
+                      <span class="input__error">Please fill out this field</span>
+                    </label>
+                  </div>
+                  <!-- Payment Method - Capitalist END -->
+                </div>
+
+                <div class="contact-form__footer">
+                  <div class="contact-form__btns">
+                    <button class="button sign-up__btn-next"
+                            type="button"
+                            onclick="validateStep('#step-2')">Next Step</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Financial details END -->
+            <!-- Your business -->
+            <div id="step-3"
+                 class="sign-up__content tab-pane"
+                 role="tabpanel"
+                 aria-labelledby="step-3">
+              <h4 class="sign-up__item-title">Your business</h4>
+
+              <div class="contact-form">
+                <div class="contact-form__list">
+                  <div class="select contact-form__field">
+                    <select name="iAm"
+                            required>
+                      <option></option>
+                      <option>an affiliate</option>
+                      <option>a network</option>
+                      <option>an agency</option>
+                    </select>
+                    <span class="select__placeholder">I am</span>
+                    <span class="select__error">Please select an item in the list</span>
+                  </div>
+
+                  <div class="checkbox-group checkbox-group_required">
+                    <strong class="checkbox-group__title">What kind of traffic sources do you work with?</strong>
+
+                    <div class="checkbox-group__list">
+                      <label class="checkbox">
+                        <div class="checkbox__field">
+                          <input type="checkbox">
+                          <span class="checkbox__status"></span>
+                        </div>
+                        <span class="checkbox__label">Popunder/Clickunder</span>
+                      </label>
+
+                      <label class="checkbox">
+                        <div class="checkbox__field">
+                          <input type="checkbox">
+                          <span class="checkbox__status"></span>
+                        </div>
+                        <span class="checkbox__label">Native Ads</span>
+                      </label>
+
+                      <label class="checkbox">
+                        <div class="checkbox__field">
+                          <input type="checkbox">
+                          <span class="checkbox__status"></span>
+                        </div>
+                        <span class="checkbox__label">Facebook/TikTok</span>
+                      </label>
+
+                      <label class="checkbox">
+                        <div class="checkbox__field">
+                          <input type="checkbox">
+                          <span class="checkbox__status"></span>
+                        </div>
+                        <span class="checkbox__label">Email</span>
+                      </label>
+
+                      <label class="checkbox">
+                        <div class="checkbox__field">
+                          <input type="checkbox">
+                          <span class="checkbox__status"></span>
+                        </div>
+                        <span class="checkbox__label">Display</span>
+                      </label>
+
+                      <label class="checkbox">
+                        <div class="checkbox__field">
+                          <input type="checkbox">
+                          <span class="checkbox__status"></span>
+                        </div>
+                        <span class="checkbox__label">Push</span>
+                      </label>
+
+                      <label class="checkbox">
+                        <div class="checkbox__field">
+                          <input type="checkbox">
+                          <span class="checkbox__status"></span>
+                        </div>
+                        <span class="checkbox__label">Google Adwords and other PPC sources</span>
+                      </label>
+
+                      <label class="checkbox">
+                        <div class="checkbox__field">
+                          <input type="checkbox">
+                          <span class="checkbox__status"></span>
+                        </div>
+                        <span class="checkbox__label">Other Sources</span>
+                      </label>
+                    </div>
+                    <span class="checkbox-group__error">Select at least one option</span>
+                  </div>
+
+                  <div class="checkbox-group checkbox-group_required">
+                    <strong class="checkbox-group__title">Choose your verticals </strong>
+
+                    <div class="checkbox-group__list">
+                      <label class="checkbox">
+                        <div class="checkbox__field">
+                          <input type="checkbox">
+                          <span class="checkbox__status"></span>
+                        </div>
+                        <span class="checkbox__label">App Installs</span>
+                      </label>
+
+                      <label class="checkbox">
+                        <div class="checkbox__field">
+                          <input type="checkbox">
+                          <span class="checkbox__status"></span>
+                        </div>
+                        <span class="checkbox__label">Gambling</span>
+                      </label>
+
+                      <label class="checkbox">
+                        <div class="checkbox__field">
+                          <input type="checkbox">
+                          <span class="checkbox__status"></span>
+                        </div>
+                        <span class="checkbox__label">Betting</span>
+                      </label>
+
+                      <label class="checkbox">
+                        <div class="checkbox__field">
+                          <input type="checkbox">
+                          <span class="checkbox__status"></span>
+                        </div>
+                        <span class="checkbox__label">Mobile Content</span>
+                      </label>
+
+                      <label class="checkbox">
+                        <div class="checkbox__field">
+                          <input type="checkbox">
+                          <span class="checkbox__status"></span>
+                        </div>
+                        <span class="checkbox__label">Crypto</span>
+                      </label>
+
+                      <label class="checkbox">
+                        <div class="checkbox__field">
+                          <input type="checkbox">
+                          <span class="checkbox__status"></span>
+                        </div>
+                        <span class="checkbox__label">Nutra</span>
+                      </label>
+
+                      <label class="checkbox">
+                        <div class="checkbox__field">
+                          <input type="checkbox">
+                          <span class="checkbox__status"></span>
+                        </div>
+                        <span class="checkbox__label">Dating</span>
+                      </label>
+
+                      <label class="checkbox">
+                        <div class="checkbox__field">
+                          <input type="checkbox">
+                          <span class="checkbox__status"></span>
+                        </div>
+                        <span class="checkbox__label">Streaming VOD</span>
+                      </label>
+
+                      <label class="checkbox">
+                        <div class="checkbox__field">
+                          <input type="checkbox">
+                          <span class="checkbox__status"></span>
+                        </div>
+                        <span class="checkbox__label">Ecommerce</span>
+                      </label>
+
+                      <label class="checkbox">
+                        <div class="checkbox__field">
+                          <input type="checkbox">
+                          <span class="checkbox__status"></span>
+                        </div>
+                        <span class="checkbox__label">Sweepstakes</span>
+                      </label>
+
+                      <label class="checkbox">
+                        <div class="checkbox__field">
+                          <input type="checkbox">
+                          <span class="checkbox__status"></span>
+                        </div>
+                        <span class="checkbox__label">Finance</span>
+                      </label>
+
+                      <label class="checkbox">
+                        <div class="checkbox__field">
+                          <input type="checkbox">
+                          <span class="checkbox__status"></span>
+                        </div>
+                        <span class="checkbox__label">Other</span>
+                      </label>
+                    </div>
+                    <span class="checkbox-group__error">Select at least one option</span>
+                  </div>
+
+                  <label class="input contact-form__field">
+                    <input type="text"
+                           class="input__field text__field"
+                           name="topCountries"
+                           required />
+                    <span class="input__placeholder">What are the top countries you operate in?</span>
+                    <span class="input__error">Please fill out this field</span>
+                  </label>
+
+                  <p class="sign-up-form-text">
+                    Which CPA networks do you currently work with?
+                    <br>
+                    Please, add screenshot-links of successfully processed payments and dailly numbers generated with
+                    other
+                    networks.
+                    <br>
+                    <span class="color-danger">Applications without those screenshot-links included will be neither
+                      reviewed
+                      not answered.</span>
+                  </p>
+                  <label class="input input_without-placeholder contact-form__field">
+                    <input type="text"
+                           class="input__field text__field"
+                           name="CPAnetworks"
+                           required />
+                    <span class="input__error">Please fill out this field</span>
+                  </label>
+
+                  <div class="select contact-form__field contact-form__field_big-label">
+                    <select name="monthlyRevenue"
+                            required>
+                      <option></option>
+                      <option>&#60; $1,000</option>
+                      <option>$1,000 - 5,000</option>
+                      <option>$5,000 - 10,000</option>
+                      <option>$10,000 - 20,000</option>
+                      <option>$20,000 - 50,000</option>
+                      <option>&#62; $50,000</option>
+                    </select>
+                    <span class="select__placeholder">How much monthly revenue do you generate with other
+                      networks?</span>
+                    <span class="select__error">Please select an item in the list</span>
+                  </div>
+
+                  <label class="input contact-form__field contact-form__field_big-label">
+                    <input type="text"
+                           class="input__field text__field"
+                           name="additionalInformation"
+                           required />
+                    <span class="input__placeholder">Please, include any additional information we should know about
+                      you</span>
+                    <span class="input__error">Please fill out this field</span>
+                  </label>
+
+                  <h5 class="sign-up__block-title">Terms & Conditions</h5>
+                  <div class="checkbox-group checkbox-group_required checkbox-group_terms">
+                    <label class="checkbox">
+                      <div class="checkbox__field">
+                        <input type="checkbox"
+                               name="termsAndConditions">
+                        <span class="checkbox__status"></span>
+                      </div>
+                      <span class="checkbox__label">I agree with Terms and Conditions</span>
+                    </label>
+                    <span class="checkbox-group__error">It is a mandatory field</span>
+                  </div>
+
+                  <div class="checkbox-group checkbox-group_required checkbox-group_terms">
+                    <label class="checkbox">
+                      <div class="checkbox__field">
+                        <input type="checkbox"
+                               name="useInformation"
+                               checked>
+                        <span class="checkbox__status"></span>
+                      </div>
+                      <span class="checkbox__label">I hereby consent and allow the use of my and/or my company's
+                        information, including sharing with a third party, to assess, detect, prevent or otherwise
+                        enable
+                        detection and
+                        prevention of malicious, invalid or unlawful activity and/or general fraud prevention.</span>
+                    </label>
+                    <span class="checkbox-group__error">It is a mandatory field</span>
+                  </div>
+                </div>
+
+                <div class="contact-form__footer">
+                  <div class="contact-form__captcha"></div>
+
+                  <div class="contact-form__btns">
+                    <span class="contact-form__info">*All fields are mandatory</span>
+                    <button class="button"
+                            onclick="validateSignUpSubmit(event, '#step-3')">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Your business END -->
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Sign Up END -->
+
+  <!-- Modal -->
+  <div id="successModal"
+       class="modal success-modal">
+    <div class="modal__dialog">
+      <div class="modal__content">
+        <button type="button"
+                class="modal__header-close"
+                data-dismiss="modal-refresh"></button>
+        <div class="modal__body">
+          <h4 class="modal__title">Thank you so much for your application.</h4>
+
+          <div class="modal__detail">
+            <p class="success-modal__text">We’ll reach you out within 2 business days.</p>
+
+            <button class="button success-modal__btn"
+                    data-dismiss="modal-refresh">Okay</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal__backdrop"
+         data-dismiss="modal-refresh"></div>
+  </div>
+  <!-- Modal END -->
+
+  <script src="js/aos.js"></script>
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/jquery.smartWizard.min.js"></script>
+  <script src="js/imask.js"></script>
+  <script src="js/selectbox.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/combobox.js"></script>
+  <script src="js/sign-up.js"></script>
+</body>
+
+</html>
