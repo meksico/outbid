@@ -1,0 +1,87 @@
+@import url("../shared/shared.css");
+
+// Contacts page
+.contacts-page {
+
+  .contact {
+    &__bg {
+      @media (max-width: 767px) {
+        display: none;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+      }
+    }
+
+    &__container {
+      padding-top: 215px;
+      padding-bottom: 67px;
+
+      @media (max-width: 767px) {
+        padding-top: 119px;
+        padding-bottom: 59px;
+      }
+    }
+
+    &-form__field.select+.textarea {
+      margin-top: -21px;
+    }
+
+    &-actions {
+      &__container {
+        max-width: 1328px;
+        padding-bottom: 70px;
+
+        @media (max-width: 767px) {
+          padding-bottom: 31px;
+        }
+      }
+
+      &__item {
+        padding: 42px 20px 50px;
+        background: #F5FCFF;
+        text-align: center;
+        color: #0E0D11;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+
+        @media (max-width: 767px) {
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+
+        &:not(:last-child) {
+          margin-bottom: 44px;
+
+          @media (max-width: 767px) {
+            margin-bottom: 58px;
+          }
+        }
+
+        a {
+          color: #0082CB;
+        }
+      }
+
+      &__title {
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 38px;
+        margin-bottom: 35px;
+        display: block;
+
+        @media (max-width: 767px) {
+          font-size: 28px;
+          line-height: 36px;
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
+}
+
+// Contacts page END

@@ -1,0 +1,220 @@
+@import url("../shared/shared.css");
+
+// Careers page
+.careers-page {
+
+  // Main
+  .main {
+    background-image: url(../../images/carrers/bg.jpg);
+    background-position: center 0;
+
+    &__title {
+      @media (max-width: 1200px) {
+        br {
+          display: none;
+        }
+      }
+    }
+  }
+
+  // Main END
+
+  // Team
+  .team {
+    background: #0E0D11;
+
+    &__container {
+      padding-top: 100px;
+      padding-bottom: 99px;
+      max-width: 1427px;
+
+      @media (max-width: 767px) {
+        padding-bottom: 61px;
+      }
+    }
+
+    &__title {
+      margin-bottom: 42px;
+    }
+
+    &__subtitle {
+      text-align: center;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 29px;
+      margin-bottom: 79px;
+
+      @media (max-width: 767px) {
+        margin-bottom: 31px;
+      }
+
+      &:after {
+        content: "";
+        display: block;
+        width: 53px;
+        height: 2px;
+        background-color: #0082CB;
+        margin: 37px auto 0;
+      }
+    }
+
+    &-detail {
+      text-align: center;
+
+      &__title {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 21px;
+
+        @media (max-width: 767px) {
+          font-size: 18px;
+          line-height: 23px;
+          margin-bottom: 33px;
+        }
+      }
+
+      &__list {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      &__item {
+        width: 33.33%;
+        padding: 34px 13px 44px;
+        background: url(../../images/publishers/border-block.svg);
+        background-repeat: no-repeat;
+        background-size: 101%;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 23px;
+
+        @media (max-width: 767px) {
+          width: 100%;
+          background-size: 100% !important;
+          padding-bottom: 52px;
+        }
+
+        &:nth-child(3n) {
+          background-size: 100%;
+        }
+
+        img {
+          height: 66px;
+          object-fit: contain;
+          margin-bottom: 30px;
+
+          @media (max-width: 767px) {
+            margin-bottom: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  // Team END
+
+  // Vacancies
+  .vacancies {
+    &__container {
+      padding-top: 120px;
+      padding-bottom: 120px;
+
+      @media (max-width: 767px) {
+        padding-top: 66px;
+        padding-bottom: 64px;
+      }
+    }
+
+    &__title {
+      color: #0E0D11;
+      margin-bottom: 54px;
+
+      @media (max-width: 767px) {
+        text-align: left;
+        margin-bottom: 29px;
+      }
+    }
+
+    &__table {
+      color: #666667;
+    }
+
+    &__row {
+      display: flex;
+      align-items: center;
+
+      @media (max-width: 767px) {
+        flex-direction: column;
+        padding: 10px 10px 0;
+        margin-bottom: 10px;
+      }
+
+      &>* {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 25%;
+        min-height: 96px;
+
+        @media (max-width: 767px) {
+          width: 100%;
+          align-items: flex-start;
+          justify-content: flex-start;
+          min-height: auto;
+          padding: 0;
+          margin-bottom: 10px;
+
+          br {
+            display: none;
+          }
+        }
+      }
+
+      &:nth-child(even) {
+        background: #F5FCFF;
+      }
+    }
+
+    &__name {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 24px;
+      padding: 12px 38px;
+      justify-content: flex-start;
+
+      @media (max-width: 1200px) {
+        font-size: 17px;
+        padding: 12px 5px 12px 20px;
+      }
+
+      @media (max-width: 767px) {
+        padding: 0;
+        font-size: 26px;
+        line-height: 26px;
+      }
+    }
+
+    &__position,
+    &__time {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 20px;
+
+      @media (max-width: 1200px) {
+        font-size: 15px;
+      }
+    }
+
+    &__time {
+      @media (max-width: 767px) {
+        margin-bottom: 23px !important;
+      }
+    }
+  }
+
+  // Vacancies END
+
+}
+
+// Careers page END

@@ -1,0 +1,191 @@
+@import url("../shared/shared.css");
+.home-page .main {
+  background-image: url(../../images/home/bg.jpg);
+  background-size: 100% 100%;
+}
+@media (max-width: 767px) {
+  .home-page .main__title {
+    margin-bottom: 51px;
+  }
+}
+.home-page .events {
+  background: #0E0D11;
+}
+.home-page .events__container {
+  max-width: 1420px;
+  padding-top: 108px;
+  padding-bottom: 72px;
+  background-image: url(../../images/home/events/line-bg.svg);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+@media (max-width: 767px) {
+  .home-page .events__container {
+    padding-top: 65px;
+    padding-bottom: 54px;
+    background-image: none;
+  }
+}
+.home-page .events__title {
+  margin-bottom: 80px;
+}
+@media (max-width: 767px) {
+  .home-page .events__title {
+    display: none;
+    margin-bottom: 33px;
+  }
+}
+.home-page .events-slider {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.home-page .events-slider__item {
+  position: relative;
+  min-height: 400px;
+  padding: 114px 10px 20px 20px;
+  overflow: hidden;
+  transition: 0.25s;
+}
+@media (max-width: 767px) {
+  .home-page .events-slider__item {
+    padding: 51px 29px 20px;
+    min-height: 270px;
+  }
+}
+.home-page .events-slider__item:hover {
+  box-shadow: 0px 0px 44px rgba(0, 0, 0, 0.55);
+}
+.home-page .events-slider__item:hover .events-slider__bg {
+  scale: 1.1;
+  rotate: -8deg;
+}
+.home-page .events-slider__logo {
+  height: 48px;
+  margin-bottom: 21px;
+}
+.home-page .events-slider__logo img {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+.home-page .events-slider__title {
+  display: block;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0.7px;
+  color: #fff;
+  margin-bottom: 19px;
+}
+@media (max-width: 1200px) {
+  .home-page .events-slider__title {
+    font-size: 26px;
+  }
+}
+.home-page .events-slider__bg {
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  top: -10%;
+  left: -10%;
+  z-index: -1;
+  transition: 0.5s;
+}
+.home-page .events-slider .owl-stage-outer {
+  margin-bottom: 37px;
+}
+.home-page .events-slider .owl-dots {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 58px 0 auto;
+  height: 44px;
+}
+.home-page .events-slider .owl-dots button {
+  font-size: 0;
+  border: none;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background: #fff;
+  display: flex;
+  padding: 0;
+  transition: 0.2s;
+}
+.home-page .events-slider .owl-dots button:not(:last-child) {
+  margin-right: 7px;
+}
+.home-page .events-slider .owl-dots button.active {
+  background-color: #0082CB;
+}
+.home-page .events-slider .owl-nav {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.home-page .events-slider .owl-nav span {
+  display: none;
+}
+.home-page .events-slider .owl-prev {
+  display: none;
+}
+.home-page .events-slider .owl-next {
+  display: inline-flex;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: transparent;
+  width: 44px;
+  height: 44px;
+  background: url(../../images/common/arrow-right.svg) no-repeat center !important;
+  background-size: 22px !important;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.home-page .events-slider .owl-next:hover {
+  background-image: url(../../images/common/arrow-right-light-blue.svg) !important;
+}
+.home-page .events-detail {
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+}
+@media (max-width: 1200px) {
+  .home-page .events-detail {
+    font-size: 16px;
+  }
+}
+.home-page .events-detail__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.home-page .events-detail__item:before {
+  content: "";
+  display: block;
+  width: 19px;
+  height: 19px;
+  margin-right: 7px;
+  background-size: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.home-page .events-detail__item_date:before {
+  background-image: url(../../images/home/events/calendar-icon.svg);
+}
+.home-page .events-detail__item_address:before {
+  background-image: url(../../images/home/events/pin-icon.svg);
+}
+.home-page .events-detail__item_office:before {
+  background-image: url(../../images/home/events/office-icon.svg);
+}
+.home-page .contact__bg img {
+  max-width: 1380px;
+}

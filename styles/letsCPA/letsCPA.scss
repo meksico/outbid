@@ -1,0 +1,171 @@
+@import url("../shared/shared.css");
+
+// LetsCPA page
+.letsCPA-page {
+
+  // Main
+  .main {
+    background-image: url(../../images/cpa/bg.jpg);
+    background-position: center 0;
+    height: auto;
+    min-height: 686px;
+
+    @media (max-width: 767px) {
+      min-height: 486px;
+    }
+
+    &__title {
+      @media (max-width: 767px) {
+        line-height: 47px;
+        margin-bottom: 0;
+      }
+
+      img {
+        @media (max-width: 767px) {
+          max-width: 149px;
+        }
+      }
+    }
+  }
+
+  // Main END
+
+  // Features
+  .features {
+    &__container {
+      background-image: url(../../images/cpa/lines-bg.svg);
+      padding-top: 147px;
+      padding-bottom: 163px;
+      max-width: 1371px;
+
+      @media (max-width: 1320px) {
+        padding-top: 60px;
+        background-image: none;
+        overflow: hidden;
+      }
+
+      @media (max-width: 767px) {
+        padding-bottom: 58px;
+      }
+    }
+
+    &__title {
+      margin-bottom: 78px;
+
+      @media (max-width: 767px) {
+        margin-bottom: 31px;
+      }
+    }
+
+    &__text {
+      width: 53.3%;
+      line-height: 28px;
+    }
+
+    &__row {
+      &:not(:last-child) {
+        margin-bottom: 165px;
+
+        @media (max-width: 1200px) {
+          margin-bottom: 83px;
+        }
+
+        @media (max-width: 767px) {
+          margin-bottom: 23px;
+        }
+      }
+
+      &_reverse .features__text {
+        width: 64.3%;
+
+        p {
+          max-width: 84%;
+
+          @media (max-width: 1200px) {
+            max-width: none;
+          }
+        }
+      }
+    }
+
+    &__img {
+      &_1 {
+        top: -45px;
+        right: -1px;
+
+        @media (max-width: 1200px) {
+          top: 50%;
+          right: 0;
+          width: 37%;
+          translate: 0 -60%;
+          min-width: auto;
+        }
+
+        @media (max-width: 767px) {
+          width: 100%;
+          translate: 0;
+          margin: 44px auto 0;
+        }
+      }
+
+      &_2 {
+        top: -71px;
+        left: 24px;
+
+        @media (max-width: 1200px) {
+          top: 50%;
+          right: 0;
+          width: 30%;
+          translate: 0 -50%;
+          min-width: auto;
+        }
+
+        @media (max-width: 767px) {
+          width: 95%;
+          translate: 0;
+          margin: 61px auto 0;
+        }
+      }
+    }
+  }
+
+  // Features END
+
+  // Info section
+  .info-section {
+    background-image: url(../../images/cpa/banner-bg.jpg);
+    background-position: center;
+
+    &__container {
+      padding-top: 78px;
+      padding-bottom: 78px;
+
+      @media (max-width: 767px) {
+        padding: 108px 0 106px;
+      }
+    }
+
+    &__title {
+      margin-bottom: 29px;
+
+      @media (max-width: 767px) {
+        margin-bottom: 62px;
+
+        br {
+          display: block;
+        }
+      }
+    }
+
+    &__btn {
+      // min-width: 320px;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  }
+
+  // Info section END
+
+}
+
+// LetsCPA page END

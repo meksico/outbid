@@ -1,0 +1,188 @@
+@import url("../shared/shared.css");
+.careers-page .main {
+  background-image: url(../../images/carrers/bg.jpg);
+  background-position: center 0;
+}
+@media (max-width: 1200px) {
+  .careers-page .main__title br {
+    display: none;
+  }
+}
+.careers-page .team {
+  background: #0E0D11;
+}
+.careers-page .team__container {
+  padding-top: 100px;
+  padding-bottom: 99px;
+  max-width: 1427px;
+}
+@media (max-width: 767px) {
+  .careers-page .team__container {
+    padding-bottom: 61px;
+  }
+}
+.careers-page .team__title {
+  margin-bottom: 42px;
+}
+.careers-page .team__subtitle {
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  margin-bottom: 79px;
+}
+@media (max-width: 767px) {
+  .careers-page .team__subtitle {
+    margin-bottom: 31px;
+  }
+}
+.careers-page .team__subtitle:after {
+  content: "";
+  display: block;
+  width: 53px;
+  height: 2px;
+  background-color: #0082CB;
+  margin: 37px auto 0;
+}
+.careers-page .team-detail {
+  text-align: center;
+}
+.careers-page .team-detail__title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  margin-bottom: 21px;
+}
+@media (max-width: 767px) {
+  .careers-page .team-detail__title {
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 33px;
+  }
+}
+.careers-page .team-detail__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.careers-page .team-detail__item {
+  width: 33.33%;
+  padding: 34px 13px 44px;
+  background: url(../../images/publishers/border-block.svg);
+  background-repeat: no-repeat;
+  background-size: 101%;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+}
+@media (max-width: 767px) {
+  .careers-page .team-detail__item {
+    width: 100%;
+    background-size: 100% !important;
+    padding-bottom: 52px;
+  }
+}
+.careers-page .team-detail__item:nth-child(3n) {
+  background-size: 100%;
+}
+.careers-page .team-detail__item img {
+  height: 66px;
+  object-fit: contain;
+  margin-bottom: 30px;
+}
+@media (max-width: 767px) {
+  .careers-page .team-detail__item img {
+    margin-bottom: 24px;
+  }
+}
+.careers-page .vacancies__container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+@media (max-width: 767px) {
+  .careers-page .vacancies__container {
+    padding-top: 66px;
+    padding-bottom: 64px;
+  }
+}
+.careers-page .vacancies__title {
+  color: #0E0D11;
+  margin-bottom: 54px;
+}
+@media (max-width: 767px) {
+  .careers-page .vacancies__title {
+    text-align: left;
+    margin-bottom: 29px;
+  }
+}
+.careers-page .vacancies__table {
+  color: #666667;
+}
+.careers-page .vacancies__row {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .careers-page .vacancies__row {
+    flex-direction: column;
+    padding: 10px 10px 0;
+    margin-bottom: 10px;
+  }
+}
+.careers-page .vacancies__row > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  min-height: 96px;
+}
+@media (max-width: 767px) {
+  .careers-page .vacancies__row > * {
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-height: auto;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  .careers-page .vacancies__row > * br {
+    display: none;
+  }
+}
+.careers-page .vacancies__row:nth-child(even) {
+  background: #F5FCFF;
+}
+.careers-page .vacancies__name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  padding: 12px 38px;
+  justify-content: flex-start;
+}
+@media (max-width: 1200px) {
+  .careers-page .vacancies__name {
+    font-size: 17px;
+    padding: 12px 5px 12px 20px;
+  }
+}
+@media (max-width: 767px) {
+  .careers-page .vacancies__name {
+    padding: 0;
+    font-size: 26px;
+    line-height: 26px;
+  }
+}
+.careers-page .vacancies__position, .careers-page .vacancies__time {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+}
+@media (max-width: 1200px) {
+  .careers-page .vacancies__position, .careers-page .vacancies__time {
+    font-size: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .careers-page .vacancies__time {
+    margin-bottom: 23px !important;
+  }
+}
